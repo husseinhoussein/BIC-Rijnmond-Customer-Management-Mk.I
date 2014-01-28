@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="http://bictest.netau.net/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>BIC-Rijnmond Customer Management Mk.I</title>
+        <vendor>Ikkileo</vendor>
+        <homepage href=""/>
+        <description>BIC-Rijnmond Customer Management Mk.I</description>
+        <description kind="short">BIC-Rijnmond Customer Management Mk.I</description>
+    <icon href="BIC.gif" kind="default"/>
+<offline-allowed/>
+</information>
+    <update check="background"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.7+"/>
+        <jar href="BIC-Rijnmond_Customer_Management_Mk.I.jar" main="true"/>
+    <jar href="lib/mysql-connector-java-5.1.23-bin.jar"/>
+<jar href="lib/beansbinding-1.2.1.jar"/>
+<jar href="lib/rs2xml.jar"/>
+<jar href="lib/swing-layout-1.0.4.jar"/>
+<jar href="lib/AbsoluteLayout.jar"/>
+</resources>
+    <application-desc main-class="bicrijnmondcustomermanagement.DataView">
+    </application-desc>
+</jnlp>
